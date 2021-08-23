@@ -8,3 +8,10 @@
 body{
     background-color: aqua;
 }
+
+section > div > img{
+    height: 80vh;
+    background-size: cover;
+    box-sizing: border-box;
+   
+}

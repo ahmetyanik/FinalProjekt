@@ -1,17 +1,5 @@
-/* VARIABLEN START */
-/* VARIABLEN END */
-/* Ahmet*/
-body > nav > #new-navbar {
-  display: flex;
-  justify-content: space-between !important;
-}
 
-.navbar-collapse {
-  flex-grow: 0 !important;
-}
 
-.praxis {
-  font-size: 0.75rem;
-}
 
-/*# sourceMappingURL=main.css.map */
+
+

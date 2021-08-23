@@ -1,35 +1,56 @@
-
-/* Style from Siddik*/
-a{
-    text-decoration: none;
-}
-
-/* Style from Siddik */
-
 /* VARIABLEN START */
 
-
-
-
-
+$title-font: "Viga", sans-serif;
+$header-link-font-size: 1.5rem;
 
 /* VARIABLEN END */
 
-
 /* Ahmet*/
 
-body>nav>#new-navbar{
-    display: flex;
-    justify-content: space-between !important;
+body {
+  nav {
+    div {
+      div {
+        ul {
+          li {
+            font-size: $header-link-font-size;
+          }
+        }
+      }
+    }
+  }
 }
 
-.navbar-collapse{
-    flex-grow: 0 !important;
+body > nav > #new-navbar {
+  display: flex;
+  justify-content: space-between !important;
 }
 
-
-.praxis{
-    font-size: .75rem;
+.navbar-collapse {
+  flex-grow: 0 !important;
 }
 
+.praxis {
+  font-size: 0.75rem;
+  font-family: $title-font;
+}
 
+.cards div {
+    margin-top: 10px;
+}
+
+.card{
+    ul{
+        li{
+            list-style: none;
+            padding: 4px;
+        }
+    }
+}
+
+/* Style from Siddik*/
+a {
+  text-decoration: none;
+}
+
+/* Style from Siddik */

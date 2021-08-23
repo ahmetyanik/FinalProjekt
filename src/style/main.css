@@ -1,2 +1,38 @@
+/* VARIABLEN START */
+/* VARIABLEN END */
+/* Ahmet*/
+body nav div div ul li {
+  font-size: 1.5rem;
+}
 
+body > nav > #new-navbar {
+  display: flex;
+  justify-content: space-between !important;
+}
 
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+.praxis {
+  font-size: 0.75rem;
+  font-family: "Viga", sans-serif;
+}
+
+.cards div {
+  margin-top: 10px;
+}
+
+.card ul li {
+  list-style: none;
+  padding: 4px;
+}
+
+/* Style from Siddik*/
+a {
+  text-decoration: none;
+}
+
+/* Style from Siddik */
+
+/*# sourceMappingURL=main.css.map */

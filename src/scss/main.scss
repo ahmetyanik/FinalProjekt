@@ -1,12 +1,51 @@
+/* VARIABLEN START */
 
-.öffnung{
-    width: 100%;
+$title-font: "Viga", sans-serif;
+$header-link-font-size: 1.5rem;
 
-    margin-left: auto;
-    margin-right: auto;
+/* VARIABLEN END */
+
+/* Ahmet*/
+
+body {
+  nav {
+    div {
+      div {
+        ul {
+          li {
+            font-size: $header-link-font-size;
+          }
+        }
+      }
+    }
+  }
 }
-body{
-    background-color: aqua;
+
+body > nav > #new-navbar {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+.praxis {
+  font-size: 0.75rem;
+  font-family: $title-font;
+}
+
+.cards div {
+    margin-top: 10px;
+}
+
+.card{
+    ul{
+        li{
+            list-style: none;
+            padding: 4px;
+        }
+    }
 }
 
 section > div > img{
@@ -15,3 +54,15 @@ section > div > img{
     box-sizing: border-box;
    
 }
+
+/* Style from Siddik*/
+a {
+  text-decoration: none;
+}
+
+/* Style from Siddik */
+
+
+
+/* Ghania Style*/ 
+

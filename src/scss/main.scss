@@ -10,6 +10,7 @@
 /* VARIABLEN START */
 
 $title-font: "Viga", sans-serif;
+$header-link-font-size-mobile: 1rem;
 $header-link-font-size: 1.5rem;
 
 .btn{
@@ -41,7 +42,7 @@ body {
       div {
         ul {
           li {
-            font-size: $header-link-font-size;
+            font-size: $header-link-font-size-mobile;
           }
         }
       }
@@ -109,20 +110,56 @@ a {
     width: 600px;
 
 
+
     .card-header{
       text-align: center;
+      font-family: $title-font;
+      font-size: 1.25em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
     }
   }
 }
 
 @media screen and (min-width:768px) {
 
+  body {
+    nav {
+      div {
+        div {
+          ul {
+            li {
+              font-size: $header-link-font-size;
+            }
+          }
+        }
+      }
+    }
+  }
+
   .angebote-cards{
+
     .card{
       margin: 10px;
       height: 300px;
       width: 600px;
     }
+  }
+  
+}
+
+
+@media screen and (min-width:768px) {
+
+ 
+
+  .angebote-cards{
+
+   .card-header{
+     height: 100px !important;
+   }
   }
   
 }

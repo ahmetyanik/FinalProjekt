@@ -11131,7 +11131,7 @@ a {
 /* Style from Siddik */
 /* Ahmet*/
 body nav div div ul li {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 body > nav > #new-navbar {
@@ -11183,13 +11183,27 @@ a {
 }
 .angebote-cards .card .card-header {
   text-align: center;
+  font-family: "Viga", sans-serif;
+  font-size: 1.25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
+  body nav div div ul li {
+    font-size: 1.5rem;
+  }
+
   .angebote-cards .card {
     margin: 10px;
     height: 300px;
     width: 600px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .angebote-cards .card-header {
+    height: 100px !important;
   }
 }
 

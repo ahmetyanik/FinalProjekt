@@ -1,10 +1,12 @@
 /* VARIABLEN START */
 /* VARIABLEN END */
-/* Ahmet*/
-body nav div div ul li {
-  font-size: 1.5rem;
+/* Style from Siddik*/
+a {
+  text-decoration: none !important;
 }
 
+/* Style from Siddik */
+/* Ahmet*/
 body > nav > #new-navbar {
   display: flex;
   justify-content: space-between !important;
@@ -16,12 +18,8 @@ body > nav > #new-navbar {
 
 .praxis {
   font-size: 0.75rem;
-  font-family: "Viga", sans-serif;
 }
 
-.cards div {
-  margin-top: 10px;
-}
 
 .card ul li {
   list-style: none;

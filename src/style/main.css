@@ -28,11 +28,18 @@ body > nav > #new-navbar {
   padding: 4px;
 }
 
+section > div > img {
+  height: 80vh;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
 /* Style from Siddik*/
 a {
   text-decoration: none;
 }
 
 /* Style from Siddik */
+/* Ghania Style*/
 
 /*# sourceMappingURL=main.css.map */

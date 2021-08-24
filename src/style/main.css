@@ -1,5 +1,6 @@
 /* VARIABLEN START */
 /* VARIABLEN END */
+<<<<<<< HEAD
 /* Style from Siddik*/
 a {
   text-decoration: none !important;
@@ -7,6 +8,13 @@ a {
 
 /* Style from Siddik */
 /* Ahmet*/
+=======
+/* Ahmet*/
+body nav div div ul li {
+  font-size: 1.5rem;
+}
+
+>>>>>>> main
 body > nav > #new-navbar {
   display: flex;
   justify-content: space-between !important;
@@ -18,6 +26,28 @@ body > nav > #new-navbar {
 
 .praxis {
   font-size: 0.75rem;
+<<<<<<< HEAD
 }
 
+=======
+  font-family: "Viga", sans-serif;
+}
+
+.cards div {
+  margin-top: 10px;
+}
+
+.card ul li {
+  list-style: none;
+  padding: 4px;
+}
+
+/* Style from Siddik*/
+a {
+  text-decoration: none;
+}
+
+/* Style from Siddik */
+
+>>>>>>> main
 /*# sourceMappingURL=main.css.map */

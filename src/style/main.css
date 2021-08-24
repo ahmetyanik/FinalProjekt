@@ -20,4 +20,23 @@ body > nav > #new-navbar {
   font-size: 0.75rem;
 }
 
+.card ul li {
+  list-style: none;
+  padding: 4px;
+}
+
+section > div > img {
+  height: 80vh;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+/* Style from Siddik*/
+a {
+  text-decoration: none;
+}
+
+/* Style from Siddik */
+/* Ghania Style*/
+
 /*# sourceMappingURL=main.css.map */

@@ -11119,13 +11119,17 @@ textarea.form-control-lg {
 
 .btn-outline-success {
   color: white !important;
-  border-color: #36e0de !important;
+  color: white !important;
 }
 
 /* VARIABLEN END */
 /* Style from Siddik*/
 a {
   text-decoration: none !important;
+}
+
+.stern {
+  color: red;
 }
 
 /* Style from Siddik */
@@ -11182,6 +11186,10 @@ a {
   text-decoration: none;
 }
 
+.buttons {
+  border: none !important;
+}
+
 /* Style from Siddik */
 /* Ghania Style*/
 /* ANGEBOT SEITE */
@@ -11208,7 +11216,13 @@ a {
   body nav div div ul li {
     font-size: 1.5rem;
   }
-
+}
+@media screen and (min-width: 768px) and (min-width: 768px) and (max-width: 992px) {
+  body nav div div ul li {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
   .angebote-cards .card {
     margin: 10px;
     height: 300px;
@@ -11219,6 +11233,67 @@ a {
   .angebote-cards .card-header {
     height: 100px !important;
   }
+}
+.loader h2 {
+  width: 100%;
+  position: relative;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 2em;
+  animation: typing1 0.5s steps(10) 1;
+  overflow: hidden;
+  text-align: center;
+}
+
+.loader h4 {
+  width: 100%;
+  position: relative;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 2em;
+  animation: typing1 1s steps(10) 1;
+  overflow: hidden;
+  text-align: center;
+}
+
+@keyframes typing1 {
+  0%, 45%, 50%, 80% {
+    width: 0;
+    overflow: 0;
+  }
+}
+/*60%,100%{
+//   width: 550px;
+//   overflow: none;
+//   }
+
+}*/
+.loader h3 {
+  width: 100%;
+  position: relative;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 2em;
+  /* text-transform: uppercase; */
+  animation: typing1 1.5s steps(10) 1;
+  overflow: hidden;
+  text-align: center;
+}
+
+@keyframes typing2 {
+  0%, 90%, 100% {
+    width: 0;
+    overflow: 0;
+  }
+  30%, 60% {
+    width: 550px;
+    overflow: none;
+  }
+}
+/*end animation*/
+main div p {
+  text-align: justify;
+  padding: 12px;
 }
 
 /*# sourceMappingURL=main.css.map */

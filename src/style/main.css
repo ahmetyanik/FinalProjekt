@@ -4330,10 +4330,10 @@ textarea.form-control-lg {
 }
 
 .navbar-light .navbar-brand {
-  color: white;
+  color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: white;
+  color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.55);
@@ -4346,7 +4346,7 @@ textarea.form-control-lg {
 }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: white;
+  color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.55);
@@ -4361,7 +4361,7 @@ textarea.form-control-lg {
 .navbar-light .navbar-text a,
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
-  color: white;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar-dark .navbar-brand {
@@ -11289,6 +11289,20 @@ a {
 main div p {
   text-align: justify;
   padding: 12px;
+}
+
+div.divseiz {
+  width: 300px;
+}
+
+div.divseiz:hover {
+  padding: 20px !important;
+}
+
+.carousel-size {
+  width: 70vw;
+  display: flex;
+  margin: auto auto;
 }
 
 /*# sourceMappingURL=main.css.map */

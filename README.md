@@ -1,6 +1,6 @@
-## fINAL PROJEKT-PRAXIS
+## FINAL PROJEKT-PRAXIS
 
-<a href="https://react-color-generator.netlify.app/" target="_blank"><h3 align="left">Click here for demo</h3></a>
+<a href="#" target="_blank"><h3 align="left">Click here for demo</h3></a>
 
 ## Table of Contents
 
@@ -11,20 +11,28 @@
 
 ## General Info
 
-Simple website to generate random colors.
+DCI End of Chapter Project
 
 ## Preview
 
-![React Color Generator](src/assets/colors.gif)
+### Desktop
+
+![alt text](src/image/gifs/desktop.gif)
+
+### Tablet
+![alt text](src/image/gifs/tablet.gif)
+
+### Mobile
+
+![alt text](src/image/gifs/mobilehome.gif)
 
 ## Technologies
 
 - HTML
 - CSS
-- Javascript
-- React
-- Materialize
+- SCSS
+- BOOTSTRAP
 
 ## Contact
 
-Created by [eminaydin](https://github.com/eminaydin) - feel free to contact me for any inquiries!
+Created by (Ghania, Siddik and Ahmet) - feel free to contact us for any inquiries!

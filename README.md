@@ -11,7 +11,7 @@
 
 ## General Info
 
-DCI End of Chapter Project
+This project is a DCI end of chapter project and a teamwork with Github.
 
 ## Preview
 
@@ -32,6 +32,7 @@ DCI End of Chapter Project
 - CSS
 - SCSS
 - BOOTSTRAP
+- GITHUB
 
 ## Contact
 

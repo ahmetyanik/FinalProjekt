@@ -11132,6 +11132,7 @@ a {
 /* Ahmet*/
 body nav div div ul li {
   font-size: 1rem;
+  margin-inline: 3px;
 }
 
 .nav-link:hover {

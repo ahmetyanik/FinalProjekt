@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ahmetyanik/FinalProjekt#readme",
   "devDependencies": {
+    "netlify-cli": "^6.7.5",
     "sass": "^1.38.0"
   },
   "dependencies": {

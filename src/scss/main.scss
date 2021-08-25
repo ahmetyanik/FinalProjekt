@@ -12,11 +12,14 @@ $header-link-font-size: 1.5rem;
 
 .btn {
   background-color: #1aa19f !important;
+  
+  
 }
+
 
 .btn-outline-success {
   color: white !important;
-  border-color: #36e0de !important;
+  color:white !important;
 }
 
 /* VARIABLEN END */
@@ -25,6 +28,9 @@ $header-link-font-size: 1.5rem;
 
 a {
   text-decoration: none !important;
+}
+.stern{
+  color: red;
 }
 
 /* Style from Siddik */
@@ -97,6 +103,10 @@ section > div > img {
 a {
   text-decoration: none;
 }
+.buttons{
+  border: none !important;
+}
+
 
 /* Style from Siddik */
 
@@ -140,8 +150,32 @@ a {
     }
   }
 
-  .angebote-cards {
-    .card {
+
+
+
+  @media screen and (min-width:768px) and (max-width:992px) {
+
+    body {
+      nav {
+        div {
+          div {
+            ul {
+              li {
+                font-size: $header-link-font-size-mobile;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+
+    }
+
+  .angebote-cards{
+
+    .card{
+
       margin: 10px;
       height: 300px;
       width: 600px;
@@ -155,4 +189,91 @@ a {
       height: 100px !important;
     }
   }
+
 }
+
+
+
+
+
+// animation header 
+.loader h2{
+  width: 100%;
+  position: relative;
+  color:white;
+  letter-spacing: 5px;
+  font-size: 2em;
+  // text-transform: uppercase;
+  animation: typing1 .5s steps(10) 1;
+  overflow: hidden;
+  text-align: center;
+  
+  }
+  .loader h4{
+    width: 100%;
+    position: relative;
+    color:white;
+    letter-spacing: 5px;
+    font-size: 2em;
+    // text-transform: uppercase;
+    animation: typing1 1s steps(10) 1;
+    overflow: hidden;
+    text-align: center;
+    
+
+     }
+  @keyframes typing1 {
+    0%,45%,50%,80%{
+    width: 0;
+    overflow: 0;
+    
+    }
+    
+
+    }
+
+    /*60%,100%{
+    //   width: 550px;
+    //   overflow: none;
+    //   }
+    
+    }*/ 
+
+    .loader h3{
+      width: 100%;
+      position: relative;
+      color:white;
+      letter-spacing: 5px;
+      font-size: 2em;
+      /* text-transform: uppercase; */
+      animation: typing1 1.5s steps(10) 1;
+      overflow: hidden;
+      text-align: center;
+      }
+
+
+      @keyframes typing2 {
+        0%,90%,100%{
+        width: 0;
+        overflow: 0;
+        
+        }
+        30%,60%{
+        width: 550px;
+        overflow: none;
+        }
+        }
+/*end animation*/ 
+
+
+
+
+main div p{
+  text-align: justify;
+  padding: 12px;
+}
+
+
+
+     
+

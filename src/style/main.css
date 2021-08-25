@@ -11128,6 +11128,10 @@ a {
   text-decoration: none !important;
 }
 
+.stern {
+  color: red;
+}
+
 /* Style from Siddik */
 /* Ahmet*/
 body nav div div ul li {
@@ -11166,6 +11170,10 @@ section > div > img {
 /* Style from Siddik*/
 a {
   text-decoration: none;
+}
+
+.buttons {
+  border: none !important;
 }
 
 /* Style from Siddik */

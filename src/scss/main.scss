@@ -9,33 +9,27 @@
 $title-font: "Viga", sans-serif;
 $header-link-font-size-mobile: 1rem;
 $header-link-font-size: 1.5rem;
+/* VARIABLEN END */
+
+
 
 .btn {
-  background-color: #1aa19f !important;
-  
-  
+  background-color: #1aa19f !important;  
 }
-
 
 .btn-outline-success {
   color: white !important;
   color:white !important;
 }
 
-/* VARIABLEN END */
-
-/* Style from Siddik*/
-
 a {
   text-decoration: none !important;
 }
+
 .stern{
   color: red;
 }
 
-/* Style from Siddik */
-
-/* Ahmet*/
 
 body {
   nav {
@@ -51,6 +45,17 @@ body {
       }
     }
   }
+}
+
+.öffnung-card{
+
+  .card-body{
+
+    .shadow{
+      width: 200vw;
+    }
+  }
+
 }
 
 
@@ -100,7 +105,7 @@ section > div > img {
   box-sizing: border-box;
 }
 
-/* Style from Siddik*/
+
 a {
   text-decoration: none;
 }
@@ -108,12 +113,19 @@ a {
   border: none !important;
 }
 
+.workshop{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
-/* Style from Siddik */
+  .card-header{
+    font-family: $title-font;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2rem 1rem;
+  }
+}
 
-/* Ghania Style*/
-
-/* ANGEBOT SEITE */
 
 .angebote-cards {
   display: flex;
@@ -143,7 +155,7 @@ a {
         div {
           ul {
             li {
-              font-size: $header-link-font-size;
+              font-size: $header-link-font-size-mobile;
             }
           }
         }
@@ -151,47 +163,23 @@ a {
     }
   }
 
-
-
-
-  @media screen and (min-width:768px) and (max-width:992px) {
-
-    body {
-      nav {
-        div {
-          div {
-            ul {
-              li {
-                font-size: $header-link-font-size-mobile;
-              }
-            }
-          }
-        }
-      }
-    }
-    
-
-    }
 
   .angebote-cards{
 
     .card{
 
-      margin: 10px;
+      margin: 20px;
       height: 300px;
       width: 600px;
+
+      .card-header {
+        height: 100px !important;
+      }
     }
   }
 }
 
-@media screen and (min-width: 768px) {
-  .angebote-cards {
-    .card-header {
-      height: 100px !important;
-    }
-  }
 
-}
 
 
 
@@ -233,12 +221,6 @@ a {
 
     }
 
-    /*60%,100%{
-    //   width: 550px;
-    //   overflow: none;
-    //   }
-    
-    }*/ 
 
     .loader h3{
       width: 100%;

@@ -11,11 +11,13 @@
 
 ## General Info
 
-Simple website to generate random colors.
+
 
 ## Preview
 
 ![alt text](src/image/gifs/desktop.gif)
+![alt text](src/image/gifs/tablet.gif)
+![alt text](src/image/gifs/mobilehome.gif)
 
 ## Technologies
 

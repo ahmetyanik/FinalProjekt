@@ -4330,10 +4330,10 @@ textarea.form-control-lg {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: white;
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: white;
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.55);
@@ -4346,7 +4346,7 @@ textarea.form-control-lg {
 }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: white;
 }
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.55);
@@ -4361,7 +4361,7 @@ textarea.form-control-lg {
 .navbar-light .navbar-text a,
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: white;
 }
 
 .navbar-dark .navbar-brand {
@@ -11132,6 +11132,19 @@ a {
 /* Ahmet*/
 body nav div div ul li {
   font-size: 1rem;
+}
+
+.nav-link:hover {
+  background-color: #1aa19f;
+  border-radius: 5px;
+  color: white !important;
+}
+
+.active-link {
+  background-color: #1aa19f;
+  color: white !important;
+  border-radius: 5px;
+  border: none;
 }
 
 body > nav > #new-navbar {

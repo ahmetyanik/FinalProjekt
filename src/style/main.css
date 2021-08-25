@@ -11113,6 +11113,7 @@ textarea.form-control-lg {
   }
 }
 /* VARIABLEN START */
+/* VARIABLEN END */
 .btn {
   background-color: #1aa19f !important;
 }
@@ -11122,8 +11123,6 @@ textarea.form-control-lg {
   color: white !important;
 }
 
-/* VARIABLEN END */
-/* Style from Siddik*/
 a {
   text-decoration: none !important;
 }
@@ -11132,11 +11131,13 @@ a {
   color: red;
 }
 
-/* Style from Siddik */
-/* Ahmet*/
 body nav div div ul li {
   font-size: 1rem;
   margin-inline: 3px;
+}
+
+.öffnung-card .card-body .shadow {
+  width: 200vw;
 }
 
 .nav-link:hover {
@@ -11181,7 +11182,6 @@ section > div > img {
   box-sizing: border-box;
 }
 
-/* Style from Siddik*/
 a {
   text-decoration: none;
 }
@@ -11190,9 +11190,18 @@ a {
   border: none !important;
 }
 
-/* Style from Siddik */
-/* Ghania Style*/
-/* ANGEBOT SEITE */
+.workshop {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.workshop .card-header {
+  font-family: "Viga", sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 2rem 1rem;
+}
+
 .angebote-cards {
   display: flex;
   justify-content: center;
@@ -11214,23 +11223,15 @@ a {
 
 @media screen and (min-width: 768px) {
   body nav div div ul li {
-    font-size: 1.5rem;
-  }
-}
-@media screen and (min-width: 768px) and (min-width: 768px) and (max-width: 992px) {
-  body nav div div ul li {
     font-size: 1rem;
   }
-}
-@media screen and (min-width: 768px) {
+
   .angebote-cards .card {
-    margin: 10px;
+    margin: 20px;
     height: 300px;
     width: 600px;
   }
-}
-@media screen and (min-width: 768px) {
-  .angebote-cards .card-header {
+  .angebote-cards .card .card-header {
     height: 100px !important;
   }
 }
@@ -11262,12 +11263,6 @@ a {
     overflow: 0;
   }
 }
-/*60%,100%{
-//   width: 550px;
-//   overflow: none;
-//   }
-
-}*/
 .loader h3 {
   width: 100%;
   position: relative;

@@ -15,8 +15,15 @@
 
 ## Preview
 
+### Desktop
+
 ![alt text](src/image/gifs/desktop.gif)
+
+### Tablet
 ![alt text](src/image/gifs/tablet.gif)
+
+### Mobile
+
 ![alt text](src/image/gifs/mobilehome.gif)
 
 ## Technologies
@@ -25,8 +32,7 @@
 - CSS
 - SCSS
 - BOOTSTRAP
-- 
 
 ## Contact
 
-Created by (Ghania, Siddik, Ahmet) - feel free to contact me for any inquiries!
+Created by (Ghania, Siddik, Ahmet) - feel free to contact us for any inquiries!

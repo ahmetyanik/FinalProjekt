@@ -1,11 +1,8 @@
-
-
 @use "../../node_modules/bootstrap/scss/bootstrap" with (
-
-  $card-cap-bg:#beeceb !important,
+  
+  $card-cap-bg:#beeceb !important,  
 
 );
-
 
 /* VARIABLEN START */
 
@@ -13,7 +10,7 @@ $title-font: "Viga", sans-serif;
 $header-link-font-size-mobile: 1rem;
 $header-link-font-size: 1.5rem;
 
-.btn{
+.btn {
   background-color: #1aa19f !important;
   
   
@@ -21,24 +18,22 @@ $header-link-font-size: 1.5rem;
 
 
 .btn-outline-success {
+  color: white !important;
   color:white !important;
-  border-color: #1aa19f !important;
 }
 
 /* VARIABLEN END */
 
 /* Style from Siddik*/
 
-
-a{
-    text-decoration: none !important;
+a {
+  text-decoration: none !important;
 }
 .stern{
   color: red;
 }
 
 /* Style from Siddik */
-
 
 /* Ahmet*/
 
@@ -49,11 +44,26 @@ body {
         ul {
           li {
             font-size: $header-link-font-size-mobile;
+
           }
         }
       }
     }
   }
+}
+
+
+.nav-link:hover{
+  background-color: #1aa19f;
+  border-radius: 5px;
+  color: white !important;
+}
+
+.active-link {
+  background-color: #1aa19f;
+  color: white !important;
+  border-radius: 5px;
+  border: none;
 }
 
 body > nav > #new-navbar {
@@ -71,23 +81,22 @@ body > nav > #new-navbar {
 }
 
 .cards div {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-.card{
-    ul{
-        li{
-            list-style: none;
-            padding: 4px;
-        }
+.card {
+  ul {
+    li {
+      list-style: none;
+      padding: 4px;
     }
+  }
 }
 
-section > div > img{
-    height: 80vh;
-    background-size: cover;
-    box-sizing: border-box;
-   
+section > div > img {
+  height: 80vh;
+  background-size: cover;
+  box-sizing: border-box;
 }
 
 /* Style from Siddik*/
@@ -101,40 +110,32 @@ a {
 
 /* Style from Siddik */
 
-
-
-/* Ghania Style*/ 
-
-
+/* Ghania Style*/
 
 /* ANGEBOT SEITE */
 
-.angebote-cards{
+.angebote-cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 
-  .card{
+  .card {
     margin: 10px;
     height: 400px;
     width: 600px;
 
-
-
-    .card-header{
+    .card-header {
       text-align: center;
       font-family: $title-font;
       font-size: 1.25em;
       display: flex;
       justify-content: center;
       align-items: center;
-     
     }
   }
 }
 
-@media screen and (min-width:768px) {
-
+@media screen and (min-width: 768px) {
   body {
     nav {
       div {
@@ -148,6 +149,7 @@ a {
       }
     }
   }
+
 
 
 
@@ -173,27 +175,24 @@ a {
   .angebote-cards{
 
     .card{
+
       margin: 10px;
       height: 300px;
       width: 600px;
     }
   }
-  
 }
 
-
-@media screen and (min-width:768px) {
-
- 
-
-  .angebote-cards{
-
-   .card-header{
-     height: 100px !important;
-   }
+@media screen and (min-width: 768px) {
+  .angebote-cards {
+    .card-header {
+      height: 100px !important;
+    }
   }
-  
+
 }
+
+
 
 
 
@@ -277,3 +276,4 @@ main div p{
 
 
      
+

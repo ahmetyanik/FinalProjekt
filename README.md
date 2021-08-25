@@ -11,7 +11,7 @@
 
 ## General Info
 
-
+DCI End of Chapter Project
 
 ## Preview
 
@@ -35,4 +35,4 @@
 
 ## Contact
 
-Created by (Ghania, Siddik, Ahmet) - feel free to contact us for any inquiries!
+Created by (Ghania, Siddik and Ahmet) - feel free to contact us for any inquiries!

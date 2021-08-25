@@ -11119,7 +11119,7 @@ textarea.form-control-lg {
 
 .btn-outline-success {
   color: white !important;
-  border-color: #1aa19f !important;
+  color: white !important;
 }
 
 /* VARIABLEN END */
@@ -11136,6 +11136,7 @@ a {
 /* Ahmet*/
 body nav div div ul li {
   font-size: 1rem;
+  margin-inline: 3px;
 }
 
 .nav-link:hover {

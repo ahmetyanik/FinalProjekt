@@ -11134,6 +11134,7 @@ a {
 body nav div div ul li {
   font-size: 1rem;
   margin-inline: 3px;
+  margin-bottom: 1px;
 }
 
 .öffnung-card .card-body .shadow {

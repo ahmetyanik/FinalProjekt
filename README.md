@@ -24,7 +24,7 @@ This project is a DCI end of chapter project and a teamwork with Github.
 
 ### Mobile
 
-![alt text](src/image/gifs/mobilehome.gif)
+![alt text](src/image/gifs/mobile.gif)
 
 ## Technologies
 

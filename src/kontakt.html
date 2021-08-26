@@ -25,11 +25,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
 </head>
-<body class="min-height">
+<body class="d-flex flex-column min-vh-100 justify-content-between" >
 
      <!--HEADER START-->
-
-     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div id="new-navbar" class="container-fluid">
             <h1 class="navbar-brand">
                 <div class="d-flex flex-column align-items-center"><span> <a href="/src/index.html"> <img class="mb-2" src="./image/logo_small.png"
@@ -64,15 +64,19 @@
             </div>
         </div>
     </nav>
-
+        
+   
+     
 
     <!--HEADER END-->
-
+    
 
     <!-- KONTAKT START -->
-
-    <div class="container">
+   
+    <div class="container ">
+        
         <div class="row ">
+            
             <!-- KONTAKT FORMULAR START -->
             
             <div class="col-12 col-md-6 d-flex justify-content-right my-4">
@@ -86,7 +90,7 @@
                 <div class="form-group my-2">
                     <label class="col-md-3 control-label" for="name">Name</label>
                     <div class="col-md-12">
-                    <input id="name" name="name" type="text" placeholder="Ihr Name" class="form-control">
+                    <input id="name" name="name" type="text" required placeholder="Ihr Name" class="form-control">
                     </div>
                 </div>
         
@@ -94,7 +98,7 @@
                 <div class="form-group my-2">
                     <label class="col-md-6 control-label" for="email">E-mail</label>
                     <div class="col-md-12">
-                    <input id="email" name="email" type="text" placeholder="Ihre E-mail" class="form-control">
+                    <input id="email" name="email" type="text" required placeholder="Ihre E-mail" class="form-control">
                     </div>
                 </div>
         
@@ -102,7 +106,7 @@
                 <div class="form-group my-2">
                     <label class="col-md-6 control-label" for="message">Nachricht</label>
                     <div class="col-md-12">
-                    <textarea class="form-control" id="message" name="message" placeholder="Bitte geben Sie hier Ihre Nachricht ein..." rows="5"></textarea>
+                    <textarea class="form-control" id="message" name="message" required  placeholder="Bitte geben Sie hier Ihre Nachricht ein..." rows="5"></textarea>
                     </div>
                 </div>
         
@@ -132,7 +136,7 @@
 
     <!-- footer start -->
 
-    <footer class="text-center text-lg-start bg-light text-muted ">
+    <footer  class="text-center text-lg-start bg-light text-muted ">
         <!-- Section: Social media -->
         <section class="
           d-flex

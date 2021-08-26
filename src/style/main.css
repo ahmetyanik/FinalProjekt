@@ -11293,7 +11293,7 @@ main div p {
 }
 
 div.divseiz {
-  width: 300px;
+  width: 400px;
 }
 
 div.divseiz:hover {
@@ -11305,5 +11305,7 @@ div.divseiz:hover {
   display: flex;
   margin: auto auto;
 }
+
+/*d-block w-100 */
 
 /*# sourceMappingURL=main.css.map */

@@ -11,7 +11,7 @@
 
 ## General Info
 
-This project is a DCI end of chapter project and a teamwork with Github.
+This is a DCI end of chapter project and a teamwork with Github.
 
 ## Preview
 

@@ -1,28 +1,30 @@
 {
-  "name": "finalprojekt",
+  "name": "boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
+  "author": "ahmetyanik",
   "scripts": {
-    "start": "sass ./src/scss/main.scss ./src/style/main.css --watch",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "gh-pages -d src"
+    "start": "run-p watch watch:styles",
+    "build": "run-s clean clean:styles build:styles copy",
+    "deploy": "run-s build publish",
+    "build:styles": "sass src/scss:src/styles",
+    "watch": "live-server src",
+    "watch:styles": "sass src/scss:src/styles --watch",
+    "clean": "rm -rf dist",
+    "clean:styles": "rm -rf src/styles",
+    "copy": "mkdir dist && rsync -avr --exclude=\"/scss\" src/ dist",
+    "publish": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ahmetyanik/FinalProjekt.git"
-  },
-  "author": "Ghania,Siddik, Ahmet",
+  "keywords": [],
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ahmetyanik/FinalProjekt/issues"
-  },
-  "homepage": "https://github.com/ahmetyanik/FinalProjekt#readme",
-  "devDependencies": {
-    "sass": "^1.38.0"
-  },
   "dependencies": {
-    "bootstrap": "^5.1.0",
-    "gh-pages": "^3.2.3"
+    "bootstrap": "^5.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "latest",
+    "live-server": "latest",
+    "npm-run-all": "latest",
+    "sass": "^1.38.2"
   }
 }

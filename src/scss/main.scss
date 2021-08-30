@@ -11,7 +11,9 @@ $header-link-font-size-mobile: 1rem;
 $header-link-font-size: 1.5rem;
 /* VARIABLEN END */
 
-
+.loader{
+  background-image: url("/src/image/kids.jpg");
+}
 
 .btn {
   background-color: #1aa19f !important;  

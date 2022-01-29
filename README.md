@@ -1,6 +1,6 @@
 ## FINAL PROJEKT-PRAXIS
 
-<a href="https://ahmetyanik.github.io/FinalProjekt/index.html" target="_blank"><h3 align="left">Click here for demo</h3></a>
+<a href="https://htmlfinalproject.netlify.app/" target="_blank"><h3 align="left">Click here for demo</h3></a>
 
 ## Table of Contents
 
